@@ -44,7 +44,7 @@
               (ray:make-intensity  1 1 1)))
        (ray:make-intensity 0.00 0.00 0.00)
        (list (ray:make-object
-              (ray:make-sphere (ray:make-position 0 -0.5 0)
+              (ray:make-sphere (ray:make-position 0 -1 0)
                                0.5)
               mirror)
              (ray:make-object
@@ -63,13 +63,6 @@
               (ray:make-sphere (ray:make-position  0 -0.5 -1)
                                0.25)
               yellow)
-
-             (ray:make-object
-              (ray:make-triangle
-               (ray:make-position 0.0 -2.0 0.0)
-               (ray:make-position -1.0 -1.0 0.0)
-               (ray:make-position 1.0 -1.0 0.0))
-              cyan)
 
              (ray:make-object
               (ray:make-plane (ray:make-position -5 0 0)
