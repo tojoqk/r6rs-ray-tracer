@@ -50,19 +50,19 @@
              (ray:make-object
               (ray:make-sphere (ray:make-position  -1 -0.5 0)
                                0.25)
-              red)
+              yellow)
              (ray:make-object
               (ray:make-sphere (ray:make-position  1 -0.5 0)
+                               0.25)
+              red)
+             (ray:make-object
+              (ray:make-sphere (ray:make-position  0 -0.5 -1)
                                0.25)
               blue)
              (ray:make-object
               (ray:make-sphere (ray:make-position  0 -0.5 -1)
                                0.25)
               green)
-             (ray:make-object
-              (ray:make-sphere (ray:make-position  0 -0.5 -1)
-                               0.25)
-              yellow)
 
              (ray:make-object
               (ray:make-plane (ray:make-position -5 0 0)
